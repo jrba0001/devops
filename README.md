@@ -7,10 +7,38 @@ La presente práctica se base en el despliegue de diferentes aplicaciones y pág
 • Página estática https://saludtecnolab.es (https)
 
 • Página con node https://chat.saludtecnolab.es (https)
+- Se sirven estaticos add_header X-Served-By jrba0001@github.com; 
 
 • Página con node y mongo https://saludtecnolab.es/parse (https)
 
 • Página con node y mongo https://nodepop.saludtecnolab.es
+- Se sirven estaticos add_header X-Served-By jrba0001@github.com;
+
+Todas las páginas tienen certificado y se sirven por https.
+
+Acciones:
+
+Se ha realizado todas las instalaciones con usuario web
+
+Se ha habilitado el inicio automatico de mongod en el sistema
+
+Se ha habilitado el arranque automatico de pm2
+
+Se ha configurado pm2 para administrar el servicio de todas las aplicaciones.
+
+Se ha configurado el servicio crontab para todos los logs de las aplicaciones.
+
+Se ha instalado servicio fail2ban para securizar servidos
+
+Acceso robomongo por ssh con certificado .pem
+
+Configuración de puertos:
+- Accesos al servidor:
+-- http 80
+-- https 443
+--  ssh 7654
+
+
 
 
 #REQUISITOS:
