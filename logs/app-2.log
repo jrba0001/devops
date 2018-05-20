@@ -131,3 +131,10 @@ Conectado a MongoDB en nodepopdb
 [0mGET / [36m304 [0m0.805 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.295 ms - -[0m
 [0mGET /apiv1/anuncios?precio=100-800&sort=-precio [32m200 [0m1.689 ms - 309[0m
+[0mGET /anuncios?nombre=bicicleta [32m200 [0m2.121 ms - 4804[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.307 ms - -[0m
+[0mGET /images/anuncios/bicicleta1.jpg [36m304 [0m0.290 ms - -[0m
+[0mGET /images/anuncios/bicicleta4.jpg [36m304 [0m0.319 ms - -[0m
+[0mGET /images/anuncios/bicicleta7.jpg [36m304 [0m0.440 ms - -[0m
+[0mGET /images/anuncios/bicicleta5.jpg [36m304 [0m1.008 ms - -[0m
+[0mGET /images/anuncios/bicicleta6.jpg [36m304 [0m1.920 ms - -[0m
