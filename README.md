@@ -7,8 +7,9 @@ La presente práctica se base en el despliegue de diferentes aplicaciones y pág
 • Página estática https://saludtecnolab.es (https)
 - Se habilita configuración para acceso por nombre dns.
 
-• Página estática http://http://52.70.15.100/
-- Se habilita default para acceso a web estática
+• Página estática http://52.70.15.100/ (acceso por http)
+- Se habilita default para acceso a web estática.
+- Se deja como prueba sin cerficado para acceso por http.
 
 • Página con node https://chat.saludtecnolab.es (https)
 - Se sirven estaticos add_header X-Served-By jrba0001@github.com; 
