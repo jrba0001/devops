@@ -1,25 +1,40 @@
-# Práctica nodepop de MasterBootcamp Web Keepcoding.
+# Práctica DevOps Keepcoding - Alberto Casero.
 
-### Fundamentos Nodejs - Mongodb - Express
+La presente práctica se base en el despliegue de diferentes aplicaciones y páginas web en servidores montados en AWS.
 
-* Arrancar la base de datos mongodb.
+#SOLUCIÓN
 
-./bin/mongod --dbpath ./data/db --directoryperdb
+Página estática https://saludtecnolab.es (https)
+Página con node chat.saludtecnolab.es (https)
+Página con node y mongo https://saludtecnolab.es/parse (https)
+Página con node y mongo https://nodepop.saludtecnolab.es
 
-en nuestro caso, por comodidad hemos creado un script en la ruta mongodb y llamamos con npm run startdb
 
-> La base de datos no se sube, luego este script no aparecerá, arrancar la base de datos a mano.
 
-* Inicializar la base de datos: npm run inicializa, ejecuta escript que tenemos ubicado en la ruta ./datos/install_db.js realiza las siguientes acciones:
-  _ borra la base de datos.
-  _ La crea y crea indices. \* Carga datos con dos ficheros .json que tenemos en ./datos/
 
-> Para ejecutar npm run inicializa, no olvidar tener el motor de base de datos arrancado.
+#REQUISITOS:
 
-arrancar nuestro servidor
-nodemon o npm run start
+Utilizar node como servidor de aplicación utilizando PM2 como gestor de procesos node para que esté 
+siempre en ejecucion. La aplicación node deberá reiniciarse automáticamente al
+arrancar el servidor (en el startup).
 
-## **Tema de listados**
+• Utilizar nginx como proxy inverso que se encargue de recibir las peticiones HTTP y derivárselas
+a node.
+
+• Los archivos estáticos de la aplicación (imágenes, css, etc.) deberán ser servidos por nginx (no
+por node). Para poder diferenciar quién sirve estos estáticos, se deberá añadir una cabecera
+HTTP cuando se sirvan estáticos cuyo valor sea: X-Owner (la X- indica que es una cabecera
+personalizada) y el valor de la cabecera deberá ser el nombre de la cuenta de usuario en github
+o bitbucket del alumno. Si la solución de la práctica por parte del alumno no tuviera archivos
+estáticos, deberá proporcionar el acceso a un archivo estático que se sirva a través de nginx
+(por ejemplo a través de la URL <dominio>/public/logo.jpg). En este caso, el alumno deberá
+indicar la URL del archivo estático en el archivo README.md del repositorio.
+
+Si se accede al servidor web indicando la dirección IP del servidor en lugar del nombre de
+dominio, se deberá mostrar el contenido de alguna plantilla de https://startbootstrap.com. Si lo
+desea, el alumno podrá personalizar los textos de la página.
+
+
 
 
 
