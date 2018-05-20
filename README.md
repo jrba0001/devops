@@ -42,34 +42,34 @@ desea, el alumno podrá personalizar los textos de la página.
 **
     Añadimos esta etiqueta o varias a la pagina ?nombre=bicicleta1 o directamente ?nombre=bicicleta http://localhost:3000/anuncios?nombre=bicicleta
 
-    Ordenado http://localhost:3000/anuncios?nombre=bicicleta&sort=nombre
+    Ordenado https://nodepop.saludtecnolab.es/anuncios?nombre=bicicleta&sort=nombre
 
-    Ordenado descendente http://localhost:3000/anuncios?nombre=bicicleta&sort=-nombre
+    Ordenado descendente https://nodepop.saludtecnolab.es/anuncios?nombre=bicicleta&sort=-nombre
 
-    Limitado a x anuncios, en este ejmplo1 http://localhost:3000/anuncios?nombre=bicicleta&limit=1
+    Limitado a x anuncios, en este ejmplo1 https://nodepop.saludtecnolab.es/anuncios?nombre=bicicleta&limit=1
 
-    Limitado a estado compra o vende, este ejemplo compra ordenado precio http://localhost:3000/anuncios?estado=compra&sort=precio>
+    Limitado a estado compra o vende, este ejemplo compra ordenado precio https://nodepop.saludtecnolab.es/anuncios?estado=compra&sort=precio>
 
-    Limitado a estado compra o vende, este ejemplo vende ordenado precio descendiente http://localhost:3000/anuncios?estado=vende&sort=-precio
+    Limitado a estado compra o vende, este ejemplo vende ordenado precio descendiente https://nodepop.saludtecnolab.es/anuncios?estado=vende&sort=-precio
 
-    Listado por precios Busca por precio ("x-" -> Mayor que x || "x-y" -> Entre x e y || "-y" -> Menor qu. En este ejemplo mayor a 600: http://localhost:3000/anuncios?precio=600-
+    Listado por precios Busca por precio ("x-" -> Mayor que x || "x-y" -> Entre x e y || "-y" -> Menor qu. En este ejemplo mayor a 600: https://nodepop.saludtecnolab.es/anuncios?precio=600-
 
-    Listado por precios Busca por precio ("x-" -> Mayor que x || "x-y" -> Entre x e y || "-y" -> Menor que y En este ejemplo menor a 600: http://localhost:3000/anuncios?precio=-600
+    Listado por precios Busca por precio ("x-" -> Mayor que x || "x-y" -> Entre x e y || "-y" -> Menor que y En este ejemplo menor a 600: https://nodepop.saludtecnolab.es/anuncios?precio=-600
 
-    En este ejemplo entre 100 y 800: http://localhost:3000/anuncios?precio=100-800&sort=-precio
+    En este ejemplo entre 100 y 800: https://nodepop.saludtecnolab.es/anuncios?precio=100-800&sort=-precio
 
     Se pueden aplicar filtros para ordenar "sort", limitar "limit", saltar algun valor "skip"
 
-    Listado por nombre = biclice, precio mayor que 600, ordenador precio descendiente, limitada a dos busqueda. http://localhost:3000/anuncios?nombre=bicicle&precio=400-&sort=-precio&limit=1
+    Listado por nombre = biclice, precio mayor que 600, ordenador precio descendiente, limitada a dos busqueda. https://nodepop.saludtecnolab.es/anuncios?nombre=bicicle&precio=400-&sort=-precio&limit=1
     tags: Busca por tags o etiquetas ("lifestyle", "motor", "mobile", "work")
 ### **
 ###     Todos los ejemplos anteriores pueden realizarse atacando a la api: /apiv1/anuncios
 **
-    En este ejemplo entre 100 y 800: http://localhost:3000/apiv1/anuncios?precio=100-800&sort=-precio
+    En este ejemplo entre 100 y 800: https://nodepop.saludtecnolab.es/apiv1/anuncios?precio=100-800&sort=-precio
 
     Añadir anuncios:
 
-    Realizando una petición post a la dirección http://localhost:3000/apiv1/anuncios se pueden añadir nuevos anuncios a la base de datos.
+    Realizando una petición post a la dirección https://nodepop.saludtecnolab.es/apiv1/anuncios se pueden añadir nuevos anuncios a la base de datos.
     Borrar anuncios:
 
-    Realizando una petición delete a la dirección http://localhost:3000/apiv1/anuncios se pueden borrar anuncios a la base de datos.
+    Realizando una petición delete a la dirección https://nodepop.saludtecnolab.es/apiv1/anuncios se pueden borrar anuncios a la base de datos.

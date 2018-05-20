@@ -108,3 +108,6 @@ Conectado a MongoDB en nodepopdb
 [0mGET /images/anuncios/bicicleta6.jpg [36m304 [0m0.654 ms - -[0m
 [0mGET /images/anuncios/bicicleta3.jpg [36m304 [0m1.025 ms - -[0m
 [0mGET /images/anuncios/bicicleta4.jpg [36m304 [0m1.420 ms - -[0m
+[0mGET / [36m304 [0m0.832 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.340 ms - -[0m
+[0mGET /apiv1/anuncios [36m304 [0m1.782 ms - -[0m
