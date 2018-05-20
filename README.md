@@ -2,7 +2,7 @@
 
 La presente práctica se base en el despliegue de diferentes aplicaciones y páginas web en servidores montados en AWS.
 
-##SOLUCIÓN
+#**SOLUCIÓN**
 * Página estática https://saludtecnolab.es (https).
 * Se habilita configuración para acceso por nombre dns.
 * Página estática http://52.70.15.100/ (acceso por http)
@@ -15,7 +15,7 @@ La presente práctica se base en el despliegue de diferentes aplicaciones y pág
 * Se sirven estáticos add_header X-Served-By jrba0001@github.com;
 * Todas las páginas tienen certificado y se sirven por https.
 
-####Acciones:
+#**Acciones:**
 * Se ha realizado todas las instalaciones con usuario web
 * Se ha habilitado el inicio automático de mongod en el sistema
 * Se ha habilitado el arranque automático de pm2
@@ -25,7 +25,7 @@ La presente práctica se base en el despliegue de diferentes aplicaciones y pág
 Acceso robomongo por ssh con certificado .pem
 * Configuración de puertos: Accesos al servidor: -- http 80 -- https 443 -- ssh 7654
 
-##REQUISITOS:
+#**REQUISITOS:**
 
 Utilizar node como servidor de aplicación utilizando PM2 como gestor de procesos node para que esté siempre en ejecución. La aplicación node deberá reiniciarse automáticamente al arrancar el servidor (en el startup).
 
@@ -34,6 +34,8 @@ Utilizar node como servidor de aplicación utilizando PM2 como gestor de proceso
 • Los archivos estáticos de la aplicación (imágenes, css, etc.) deberán ser servidos por nginx (no por node). Para poder diferenciar quién sirve estos estáticos, se deberá añadir una cabecera HTTP cuando se sirvan estáticos cuyo valor sea: X-Owner (la X- indica que es una cabecera personalizada) y el valor de la cabecera deberá ser el nombre de la cuenta de usuario en github o bitbucket del alumno. Si la solución de la práctica por parte del alumno no tuviera archivos estáticos, deberá proporcionar el acceso a un archivo estático que se sirva a través de nginx (por ejemplo, a través de la URL /public/logo.jpg). En este caso, el alumno deberá indicar la URL del archivo estático en el archivo README.md del repositorio.
 
 Si se accede al servidor web indicando la dirección IP del servidor en lugar del nombre de dominio, se deberá mostrar el contenido de alguna plantilla de https://startbootstrap.com. Si lo desea, el alumno podrá personalizar los textos de la página.
+
+#**Instrucciones:**
 
 **Se pueden aplicar filtros usando los parámetros siguientes: Nombre, estado (compra o vende), precio, foto, tags.** 
 
@@ -62,8 +64,8 @@ tags: Busca por tags o etiquetas ("lifestyle", "motor", "mobile", "work")
 
 En este ejemplo entre 100 y 800: https://nodepop.saludtecnolab.es/apiv1/anuncios?precio=100-800&sort=-precio
 
-#####Añadir anuncios: 
+**Añadir anuncios:** 
 Realizando una petición post a la dirección https://nodepop.saludtecnolab.es/apiv1/anuncios se pueden añadir nuevos anuncios a la base de datos.
 
-#####Borrar anuncios: 
+**Borrar anuncios:**
 Realizando una petición delete a la dirección https://nodepop.saludtecnolab.es/apiv1/anuncios se pueden borrar anuncios a la base de datos.
