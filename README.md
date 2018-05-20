@@ -10,8 +10,6 @@ Página con node y mongo https://saludtecnolab.es/parse (https)
 Página con node y mongo https://nodepop.saludtecnolab.es
 
 
-
-
 #REQUISITOS:
 
 Utilizar node como servidor de aplicación utilizando PM2 como gestor de procesos node para que esté 
@@ -36,11 +34,9 @@ desea, el alumno podrá personalizar los textos de la página.
 
 
 
-
-
 ### **Se pueden aplicar filtros usando los parametros siguientes: Nombre, estado (compra o vende), precio, foto, tags.
 **
-    Añadimos esta etiqueta o varias a la pagina ?nombre=bicicleta1 o directamente ?nombre=bicicleta http://localhost:3000/anuncios?nombre=bicicleta
+    Añadimos esta etiqueta o varias a la pagina ?nombre=bicicleta1 o directamente ?nombre=bicicleta https://nodepop.saludtecnolab.es/anuncios?nombre=bicicleta
 
     Ordenado https://nodepop.saludtecnolab.es/anuncios?nombre=bicicleta&sort=nombre
 
