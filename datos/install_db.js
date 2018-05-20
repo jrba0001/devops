@@ -1,8 +1,7 @@
 "use strict";
 
 //conexion con BD host en localhost:27017
-var conn = new Mongo("localhost:27017");
-
+var conn = new Mongo("localhost:27017/nodepop");
 //Nombre de la Base de Datos
 var db = conn.getDB("nodepopdb");
 

@@ -1,0 +1,69 @@
+Conectado a MongoDB en nodepopdb
+Conectado a MongoDB en nodepopdb
+Conectado a MongoDB en nodepopdb
+Conectado a MongoDB en nodepopdb
+[0mGET / [36m304 [0m11.161 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.134 ms - 111[0m
+[0mGET /anuncios [31m500 [0m11.738 ms - 559[0m
+[0mGET /anuncios?nombre=bicicleta&sort=nombre [31m500 [0m3.159 ms - 647[0m
+[0mGET /apiv1/anuncios [31m500 [0m1.835 ms - 125[0m
+[0mGET / [36m304 [0m2.354 ms - -[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.718 ms - 111[0m
+[0mGET /anuncios?nombre=bicicleta&sort=nombre [31m500 [0m1.675 ms - 647[0m
+[0mGET / [32m200 [0m0.856 ms - 4746[0m
+Conectado a MongoDB en nodepopdb
+[0mGET / [32m200 [0m14.000 ms - 4746[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.570 ms - -[0m
+[0mGET / [36m304 [0m1.534 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.397 ms - -[0m
+[0mGET /anuncios [31m500 [0m30.193 ms - 559[0m
+[0mGET / [36m304 [0m0.900 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.297 ms - -[0m
+[0mGET /anuncios [31m500 [0m2.277 ms - 559[0m
+[0mGET /anuncios [32m200 [0m4.258 ms - 453[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.300 ms - -[0m
+[0mGET / [36m304 [0m0.854 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.297 ms - -[0m
+[0mGET /anuncios [36m304 [0m1.736 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.317 ms - -[0m
+[0mGET / [36m304 [0m0.902 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.269 ms - -[0m
+[0mGET /apiv1/anuncios [32m200 [0m1.623 ms - 28[0m
+Conectado a MongoDB en nodepopdb
+[0mGET / [32m200 [0m28.965 ms - 4746[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.649 ms - -[0m
+[0mGET /anuncios [36m304 [0m11.319 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.456 ms - -[0m
+[0mGET / [36m304 [0m1.220 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.379 ms - -[0m
+[0mGET /apiv1/anuncios [36m304 [0m2.938 ms - -[0m
+[0mGET /apiv1/anuncios [36m304 [0m1.617 ms - -[0m
+[0mGET /apiv1/anuncios [32m200 [0m6.652 ms - 168[0m
+[0mGET /anuncios [32m200 [0m2.707 ms - 1324[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.501 ms - -[0m
+[0mGET /images/anuncios/bicicleta3.jpg [32m200 [0m4.390 ms - 67025[0m
+[0mGET /anuncios [32m200 [0m2.169 ms - 3066[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.332 ms - -[0m
+[0mGET /images/anuncios/bicicleta3.jpg [32m200 [0m0.790 ms - 67025[0m
+[0mGET /images/anuncios/bicicleta1.jpg [32m200 [0m2.541 ms - 67025[0m
+[0mGET /anuncios [32m200 [0m2.391 ms - 6546[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.399 ms - -[0m
+[0mGET /images/anuncios/bicicleta1.jpg [32m200 [0m0.490 ms - 67025[0m
+[0mGET /images/anuncios/bicicleta4.jpg [32m200 [0m6.545 ms - 67025[0m
+[0mGET /images/anuncios/bicicleta5.jpg [32m200 [0m5.737 ms - 67025[0m
+[0mGET /images/anuncios/bicicleta3.jpg [36m304 [0m0.349 ms - -[0m
+[0mGET /images/anuncios/bicicleta6.jpg [32m200 [0m2.482 ms - 67025[0m
+[0mGET /images/anuncios/bicicleta7.jpg [32m200 [0m2.569 ms - 67025[0m
+[0mGET / [36m304 [0m0.898 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.313 ms - -[0m
+[0mGET /apiv1/anuncios [32m200 [0m2.000 ms - 1010[0m
+[0mGET /anuncios [36m304 [0m2.378 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.296 ms - -[0m
+[0mGET /images/anuncios/bicicleta7.jpg [36m304 [0m1.466 ms - -[0m
+[0mGET /images/anuncios/bicicleta6.jpg [36m304 [0m2.029 ms - -[0m
+[0mGET /images/anuncios/bicicleta1.jpg [36m304 [0m2.453 ms - -[0m
+[0mGET /images/anuncios/bicicleta3.jpg [36m304 [0m3.457 ms - -[0m
+[0mGET /images/anuncios/bicicleta4.jpg [36m304 [0m3.844 ms - -[0m
+[0mGET /images/anuncios/bicicleta5.jpg [36m304 [0m5.217 ms - -[0m
+[0mGET / [36m304 [0m0.851 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.275 ms - -[0m
