@@ -5,7 +5,7 @@ La presente práctica se base en el despliegue de diferentes aplicaciones y pág
 #SOLUCIÓN
 
 Página estática https://saludtecnolab.es (https)
-Página con node chat.saludtecnolab.es (https)
+Página con node https://chat.saludtecnolab.es (https)
 Página con node y mongo https://saludtecnolab.es/parse (https)
 Página con node y mongo https://nodepop.saludtecnolab.es
 

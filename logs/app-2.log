@@ -98,3 +98,13 @@ Conectado a MongoDB en nodepopdb
 [0mGET /apiv1/anuncios [36m304 [0m1.790 ms - -[0m
 [0mGET / [36m304 [0m0.861 ms - -[0m
 [0mGET /stylesheets/style.css [36m304 [0m0.262 ms - -[0m
+[0mGET / [36m304 [0m0.749 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.295 ms - -[0m
+[0mGET /anuncios [36m304 [0m2.195 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.289 ms - -[0m
+[0mGET /images/anuncios/bicicleta7.jpg [36m304 [0m0.299 ms - -[0m
+[0mGET /images/anuncios/bicicleta1.jpg [36m304 [0m0.289 ms - -[0m
+[0mGET /images/anuncios/bicicleta5.jpg [36m304 [0m0.232 ms - -[0m
+[0mGET /images/anuncios/bicicleta6.jpg [36m304 [0m0.654 ms - -[0m
+[0mGET /images/anuncios/bicicleta3.jpg [36m304 [0m1.025 ms - -[0m
+[0mGET /images/anuncios/bicicleta4.jpg [36m304 [0m1.420 ms - -[0m
